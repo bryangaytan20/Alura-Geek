@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo-Alura" src="../assets/logo-alura-geek.png" alt="logo-alura-geek">
+        <h1>Alura Geek</h1>
+    </header>
+
+    <main>
+        <section class="productos">
+            <h2 class="encabezadoDeSection">Mis Productos:</h2>
+            <div class="productos-container">
+                <!-- Tarjetas de productos por defecto -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>$100.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>$200.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 3">
+                    <h3>Producto 3</h3>
+                    <p>$300.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 4">
+                    <h3>Producto 4</h3>
+                    <p>$400.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 5">
+                    <h3>Producto 5</h3>
+                    <p>$500.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 6">
+                    <h3>Producto 6</h3>
+                    <p>$600.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 7">
+                    <h3>Producto 7</h3>
+                    <p>$700.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 8">
+                    <h3>Producto 8</h3>
+                    <p>$800.00</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Producto 9">
+                    <h3>Producto 9</h3>
+                    <p>$900.00</p>
+                </div>
+                <div class="mensaje-no-productos" style="display:none;">No hay productos disponibles</div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <h2 class="encabezadoDeSection">Agregar Producto:</h2>
+            <form id="producto-form">
+                <label class="descripcionInput" or="nombre">Nombre del producto:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label class="descripcionInput" for="precio">Precio:</label>
+                <input type="number" id="precio" name="precio" required>
+                
+                <label class="descripcionInput" for="imagen">Imagen:</label>
+                <input type="url" id="imagen" name="imagen" required>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn">Enviar</button>
+                    <button type="reset" class="btn">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda en Línea. Todos los derechos reservados.</p>
+        <p>Creado por Bryan Gaytán</p>
+    </footer>
+
+    <script src="scripts/renderProducts.js"></script>
+    <script src="scripts/formHandler.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+
+
