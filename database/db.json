@@ -1,0 +1,26 @@
+{
+    "products": [
+        {
+            "name": "Darth Vader",
+            "price": "60",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-o.webp",
+            "id": 1
+
+        },
+        {
+            "name": "Superman",
+            "price": "86",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-o.webp",
+            "id": 2
+
+        },
+        {
+            "name": "Batman",
+            "price": "150",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-o.webp",
+            "id": 3
+
+        }
+
+    ]
+}
