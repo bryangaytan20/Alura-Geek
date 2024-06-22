@@ -3,22 +3,29 @@
         {
             "name": "Darth Vader",
             "price": "60",
-            "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-o.webp",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_687152-MLM54368344270_032023-O.webp",
             "id": 1
 
         },
         {
             "name": "Superman",
             "price": "86",
-            "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-o.webp",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_851752-MLM75240605025_032024-F.webp",
             "id": 2
 
         },
         {
             "name": "Batman",
             "price": "150",
-            "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-o.webp",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_853248-MLU72637330529_112023-F.webp",
             "id": 3
+
+        },
+        {
+            "name": "Audifonos",
+            "price": "45",
+            "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSdV7kukYhxc_Wpisdsk6kjZ0OnE1NCiuTELYmfBDgBmB2Y9qAJfHS80MLHVGzdpm5xkNv_X90LWcppYva0wtUs9jD1eA97iEL5x7HXkyZmdai0q2_-ytMOcA",
+            "id": 4
 
         }
 
