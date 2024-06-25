@@ -23,15 +23,15 @@
 
         <section class="formulario">
             <h2 class="encabezadoDeSection">Agregar Producto:</h2>
-            <form id="producto-form">
+            <form id="producto-form" data-formulario>
                 <label class="descripcionInput" or="nombre">Nombre del producto:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre" required data-nombre>
                 
                 <label class="descripcionInput" for="precio">Precio:</label>
-                <input type="number" id="precio" name="precio" required>
+                <input type="number" id="precio" name="precio" required data-precio>
                 
                 <label class="descripcionInput" for="imagen">Imagen:</label>
-                <input type="url" id="imagen" name="imagen" required>
+                <input type="url" id="imagen" name="imagen" required data-imagen>
 
                 <div class="form-buttons">
                     <button type="submit" class="btn">Enviar</button>
@@ -46,7 +46,8 @@
         <p>Creado por Bryan Gaytán</p>
     </footer>
     <script src="../js/mostrarProductos.js" type="module"></script>
-</body>
+    <script src="../js/crearProducto.js" type="module"></script>
+    <script src="../js/renderProductos.js" type="module"></script>
 </html>
 
 
