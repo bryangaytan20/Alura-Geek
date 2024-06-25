@@ -1,12 +1,6 @@
 {
   "products": [
     {
-      "name": "Darth Vader",
-      "price": "60",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_687152-MLM54368344270_032023-O.webp",
-      "id": "1"
-    },
-    {
       "name": "Superman",
       "price": "86",
       "image": "https://http2.mlstatic.com/D_NQ_NP_2X_851752-MLM75240605025_032024-F.webp",
@@ -35,6 +29,12 @@
       "name": "Spider-man",
       "price": "45",
       "image": "https://http2.mlstatic.com/D_NQ_NP_2X_810081-MLA74781907853_022024-F.webp"
+    },
+    {
+      "id": "1108",
+      "name": "batimóvil",
+      "price": "23",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_616312-MLB52912174145_122022-F.webp"
     }
   ]
 }

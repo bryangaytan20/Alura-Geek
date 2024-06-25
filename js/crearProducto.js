@@ -1,3 +1,4 @@
+//Crear producto
 import { conexionAPI } from "./conexionAPI.js";
 
 const formulario = document.querySelector("[data-formulario]");
@@ -10,7 +11,11 @@ async function crearProducto(evento){
     const price = document.querySelector("[data-precio]").value;
     const image = document.querySelector("[data-imagen]").value;
 
-    await conexionAPI.enviarProducto(name,price,image);
+    try{
+         await conexionAPI.enviarProducto(name,price,image);
+    }catch(e){
+        alert(e)
+    }
 
 
 }
